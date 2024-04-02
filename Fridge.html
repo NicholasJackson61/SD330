@@ -5,50 +5,17 @@
 <head>
     <meta charset="UTF-8">
     <title>Fridge Display</title>
+
+
+    <link rel="stylesheet" href="fridge.css">
+   
+   
+
 </head>
 
 
 <body onload="doStartClock();">
 
-    <style>
-        body {
-            background-color: aqua;
-        }
-
-
-        .div {
-
-
-            background-color: blue;
-            color: white;
-            font-size: 24px;
-            border: 2px solid black;
-            padding: 10px;
-            margin: 5px;
-            width: 35%;
-            height: 300px;
-        }
-
-
-
-
-
-        p {
-            float: middle
-        }
-
-        .visibility {
-            visibility: hidden;
-        }
-
-        .shown {
-            visibility: visible;
-        }
-
-        .img {
-            visibility: hidden;
-        }
-    </style>
 
 
 
@@ -58,13 +25,6 @@
     <p id="timePar" style="font-size: 1em;font-family: 'Courier New', Courier, monospace; text-align: center;">
         00:00:00</p>
     <h1>Big Nick's Fridge</h1>
-
-
-
-
-
-
-
 
 
 
@@ -92,7 +52,7 @@
         </img>
     </div>
 
-
+<script src="fridge.js"></script>
 
     <button type=button onclick=Open()>Open Fridge</button>
     <button type=button onclick=disPlay()>Show Display</button>
@@ -101,67 +61,7 @@
 
 
 
-    <script>
-
-
-        function doStartClock() {
-            setInterval(doCLockTick, 1000);
-
-
-        }
-        function doCLockTick() {
-            var currentDate = new Date();
-            var hours = currentDate.getHours();
-            var mins = currentDate.getMinutes();
-            var secs = currentDate.getSeconds();
-            var timestring = hours + ":" + mins + ":" + secs;
-
-
-            var outputElement = document.getElementById("timePar");
-            outputElement.textContent = timestring;
-        }
-
-
-
-        function disPlay() {
-            var image = document.getElementById('TV');
-            if (image.style.display === "none") {
-                image.style.display = 'block';
-            } else {
-                image.style.display = "none";
-            }
-        }
-
-
-        function Temp() {
-            var image = document.getElementById('Temp');
-            if (image.style.display === "none") {
-                image.style.display = 'block';
-            } else {
-                image.style.display = "none";
-            }
-        }
-        function WebBrowser() {
-            var image = document.getElementById('Browser');
-            if (image.style.display === "none") {
-                image.style.display = 'block';
-            } else {
-                image.style.display = "none";
-            }
-        }
-
-        function Open() {
-            var image = document.getElementById('FridgeDoor');
-            if (image.src === "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREjskFX_whhwbKNJJsN3M1axfX2Hp8rWgyag&usqp=CAU") {
-                image.src = 'https://aptokash.github.io/SD330-2/06-fridge.jpg';
-            }
-            else {
-                image.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREjskFX_whhwbKNJJsN3M1axfX2Hp8rWgyag&usqp=CAU"
-            }
-        }
-       
-
-    </script>
+  
 
 
     <footer>
