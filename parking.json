@@ -1,0 +1,12 @@
+{
+    "Name":{
+        "Mccan":{
+            "Capacity": "Full"
+        } . 
+        "Dyson":{
+            "Capacity": "Half"
+        }
+
+    }
+    
+}
