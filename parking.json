@@ -1,12 +1,148 @@
 {
-    "Name":{
-        "Mccan":{
-            "Capacity": "Full"
-        } . 
-        "Dyson":{
-            "Capacity": "Half"
+    "ParkingLots": {
+        "Mcaan": {
+            "Capcity": "Full",
+            "Parking": "mapMccan.jpeg",
+            "TotalSpaces": "110",
+            "Comments": "Comments about Parking lot",
+            "Events": "No Events Happening right now",
+            "Shuttle": "Yes shuttle for events"
+        },
+        "Space1":{
+            "Type": "Student",
+            "Availability": "Resreved",
+            "FilledDate": "",
+            "ResrevedDate": "April 29,2024",
+            "ResrevedTime": "12:30",
+            "Handicap": "No"
+        },
+        "Space2":{
+            "Type": "Student",
+            "Availability": "Resreved",
+            "FilledDate": "",
+            "ResrevedDate": "April 29,2024",
+            "ResrevedTime": "12:30",
+            "Handicap": "No"
+        },
+        "Space3":{
+            "Type": "Faculty",
+            "Availability": "Filled",
+            "FilledDate": "April 4,2024",
+            "ResrevedDate": "",
+            "ResrevedTime": "",
+            "Handicap": "No"
+        },
+        "Space4":{
+            "Type": "Staff",
+            "Availability": "Resreved",
+            "FilledDate": "",
+            "ResrevedDate": "April 30,2024",
+            "ResrevedTime": "11:00am",
+            "Handicap": "No" 
+        },
+        "Space5":{
+            "Type": "Student",
+            "Availability": "Resreved",
+            "FilledDate": "",
+            "ResrevedDate": "May 2,2024",
+            "ResrevedTime": "9:00am",
+            "Handicap": "No" 
+        },
+        "Space6":{
+            "Type": "Faculty",
+            "Availability": "Resreved",
+            "FilledDate": "",
+            "ResrevedDate": "May 5,2024",
+            "ResrevedTime": "1:00pm",
+            "Handicap": "No" 
+        },
+        "Space7":{
+            "Type": "Student",
+            "Availability": "Available",
+            "FilledDate": "",
+            "ResrevedDate": "",
+            "ResrevedTime": "",
+            "Handicap": "Yes" 
+        },
+        "Space8":{
+            "Type": "Student",
+            "Availability": "Filled",
+            "FilledDate": "April 29,2024",
+            "ResrevedDate": "",
+            "ResrevedTime": "",
+            "Handicap": "No" 
+        },
+        "Space9":{
+            "Type": "Staff",
+            "Availability": "Resreved",
+            "FilledDate": "",
+            "ResrevedDate": "May 15,2024",
+            "ResrevedTime": "4:00pm",
+            "Handicap": "No" 
+        },
+        "Space10":{
+            "Type": "Faculty",
+            "Availability": "Resreved",
+            "FilledDate": "",
+            "ResrevedDate": "May 9,2024",
+            "ResrevedTime": "2:00pm",
+            "Handicap": "Yes" 
+        },
+        "Space11":{
+            "Type": "Student",
+            "Availability": "Filled",
+            "FilledDate": "April 29,2024",
+            "ResrevedDate": "",
+            "ResrevedTime": "",
+            "Handicap": "Yes" 
+        },
+        "Space12":{
+            "Type": "Student",
+            "Availability": "Filled",
+            "FilledDate": "May 18,2024",
+            "ResrevedDate": "",
+            "ResrevedTime": "",
+            "Handicap": "No" 
+        },
+         "Dyson": {
+            "Capcity": "full",
+            "Picture": "mapDyson.jpeg",
+            "TotalSpaces": "90",
+            "Comments": "Comments about Parking lot",
+            "Events": "No Events Happening right now",
+            "Shuttle": "Yes shuttle for events"
+        },
+        "Beck": {
+            "Capcity": "Empty",
+            "Picture": "mapBeck.jpeg",
+            "TotalSpaces": "80",
+            "Comments": "Comments about Parking lot",
+            "Events": "There is no events happening",
+            "Shuttle": "No Shuttle for events"
+        },
+        "Midrise": {
+            "Capcity": "full",
+            "Parking": "mapMidrise.jpeg",
+            "TotalSpaces": "120",
+            "Comments": "Comments about Parking lot",
+            "Events": "Yes there is an event happeing",
+            "Shuttle": "Yes shuttle for events"
+        },
+        "Foy": {
+            "Capcity": "Half",
+            "Picture": "mapFoy.jpeg",
+            "TotalSpaces": "60",
+            "Comments": "Comments about Parking lot",
+            "Events": "There is no events happening",
+            "Shuttle": "Yes Shuttle for events"
+        },
+        "North Field": {
+            "Capcity": "full",
+            "Picture": "mapNorthField.jpeg",
+            "TotalSpaces": "130",
+            "Comments": "Comments about Parking lot",
+            "Events": "There is no events happening",
+            "Shuttle": "Yes Shuttle for events"
         }
-
     }
-    
 }
